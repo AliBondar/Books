@@ -1,6 +1,9 @@
+import java.util.Date;
+
 public abstract class Book {
     private String title;
     private double price;
+    private Date publishYear;
 
     public Book(String title, double price) {
         this.title = title;
